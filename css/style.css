@@ -24,8 +24,7 @@ h1 {
 
 .img {
     width: 60%;
-    padding-left: 60px;
-    padding-right: 30px;
+    padding: 20px;
 
 
 }
@@ -40,12 +39,12 @@ h1 {
 }
 
 .banner {
-    background-image: url(images/top-banner.png);
+    background-image: url(../images/top-banner.png);
     background-repeat: no-repeat;
 }
 
 .img2 {
-    width: 60%;
+    width: 100%;
     padding-left: 60px;
     padding-right: 30px;
 }
@@ -60,7 +59,7 @@ h1 {
 }
 
 .dream {
-    background-image: url(images/dream-bg.png);
+    background-image: url(../images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
 
@@ -80,7 +79,7 @@ h1 {
 }
 
 .experience {
-    background-image: url(images/exp-bg.png);
+    background-image: url(../images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
 
@@ -99,6 +98,10 @@ h1 {
     border-image: linear-gradient(blue, cyan);
     border-image-slice: 30%;
 
+}
+
+#bla {
+    width: 60%;
 }
 
 footer {
